@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table-list</title>
+    <style>
+      table, td , tr , th{
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 2px;
+      }
+      table{
+        background: bisque;
+        width: 100%;
+        height: 100%;
+        justify-content: space-evenly;
+      }
+      td {
+        background: bisque;
+        font-size : small;
+        text-align: center;
+      }
+      label {
+    
+      }
+      .Time {
+        background: burlywood;
+      }
+      .Monday {
+        background: yellow;
+      }
+      .Tuesday {
+        background: pink;
+      }
+      .Wednesday {
+        background: greenyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Favorite Fruits</h1>
+    <ol type="i">
+      <li>mango</li>
+      <li>tangmo</li>
+      <li>somO</li>
+    </ol>
+
+    <h1>My courses</h1>
+    <table>
+        <caption>My courses</caption>
+      <tr class="Time">
+        <th></th>
+        <th>9:00-9:30</th>
+        <th>9:30-10:00</th>
+        <th>10:00-10:30</th>
+        <th>10:30-11:00</th>
+        <th>11:00-11:30</th>
+        <th>11:30-12:00</th>
+      </tr>
+      <tr class="Monday">
+        <th>Monday</th>
+        <td colspan="6"></td>
+      </tr>
+      <tr class="Tuesday">
+        <th>Tuesday</th>
+        <td>AG133006</td>
+        <td colspan="5"></td>
+      </tr>
+      <tr class="Wednesday">
+        <th>Wednesday</th>
+        <td colspan="6"></td>
+      </tr>
+    </table>
+  </body>
+</html>
